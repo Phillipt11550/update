@@ -1,0 +1,113 @@
+
+div.gallery {
+    margin: 7px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    align-content: center; 
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .side_nav a:hover {
+    background: #33c28b;
+  }
+  
+  #wrapper {
+    width: 70%;     /* specify a width! */
+    margin: 0 auto; /* center */
+  }
+  .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+  }
+  
+  
+  @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+       font-size: 3.5rem;
+  }
+  }
+  body {
+  
+      background: red;
+      background-repeat: repeat-y;
+      background-attachment: fixed;
+    }
+  input[type=text], select, textarea{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+    
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+    
+    /* Style the submit button */
+  input[type=submit] {
+      background-color: #04AA6D;
+      color: rgb(227, 23, 23);
+      padding: 12px 20px;
+      border: none;
+      border-radius: 9px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    /*  container */
+    .container {
+      border-radius: 5px;
+      background-color: hsl(0, 6%, 16%);
+      padding: 20px;
+  }
+    
+    /* Floating column for labels: */
+  .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+  }
+    
+  
+  .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+  }
+    
+    /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+    
+  @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+  }
+  
